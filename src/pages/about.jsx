@@ -75,14 +75,12 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Brian Ketelsen. I live in Florida, where I help people
-              across the world learn the Cloud.
+              I&apos;m Inderdeep Singh and I enjoy creating things that live on the internet.
             </h1>
             <div className="mt-6 text-lg prose space-y-7 dark:prose-invert text-zinc-600 dark:text-zinc-400">
               <p>
-                Howdy! Thanks for stopping by. I’m Brian and I’ve been doing technology
-                things since <a href="https://en.wikipedia.org/wiki/Acoustic_coupler">acoustic
-                  modem couplers</a> were a thing. I love Open Source and exploring different programming languages.
+                Howdy! Thanks for stopping by. I’m Inderdeep and I’ve been doing technology
+                things and coding for as long as I can remember. I love Open Source and exploring different programming languages and frameworks.
                 Some highlights about me and my activities:
               </p>
               <p>

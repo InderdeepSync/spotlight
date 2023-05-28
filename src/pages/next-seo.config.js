@@ -3,11 +3,11 @@ export default {
       type: 'website',
       locale: 'en_IE',
       url: 'https://www.brian.dev/',
-      siteName: 'Brian Ketelsen',
+      siteName: 'Inderdeep Singh',
     },
     twitter: {
-      handle: '@bketelsen',
-      site: '@bketelsen',
+      handle: '@InderdeepSync',
+      site: '@InderdeepSync',
       cardType: 'summary_large_image',
     },
   };
