@@ -8,7 +8,6 @@ import {
   InstagramIcon,
   GitHubIcon,
   LinkedInIcon,
-  MastodonIcon
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/brian-head.jpg'
 import siteMeta from '@/data/siteMeta'
@@ -44,7 +43,7 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About - Brian Ketelsen"
+        title="About - Inderdeep Singh"
         description={siteMeta.description}
         canonical="https://brian.dev/about"
         openGraph={{
@@ -80,48 +79,44 @@ export default function About() {
             <div className="mt-6 text-lg prose space-y-7 dark:prose-invert text-zinc-600 dark:text-zinc-400">
               <p>
                 Howdy! Thanks for stopping by. I’m Inderdeep and I’ve been doing technology
-                things and coding for as long as I can remember. I love Open Source and exploring different programming languages and frameworks.
-                Some highlights about me and my activities:
+                things and coding for as long as I can remember.
+                Here&apos;s how I got where we are now:
               </p>
               <p>
-                <b>Army Veteran:</b> Bradley Fighting Vehicle Gunner, Infantry, 1st Armored Division
+                I was born in 1998 in New Delhi, India.
               </p>
               <p>
-                <b>Father of <s>four</s> five</b> with <s>19</s> 21 years difference between oldest and youngest child
+                After graduating from BITS Pilani(India) and working for a brief period at Birdeye, I went to Bishop&apos;s University
+                where I graduated top of the class with a Masters in Computer Science degree in 2023.
               </p>
               <p>
-                <b>Co-founded GopherCon</b> <a href="https://gophercon.com">the largest conference for Go developers</a>.
+                Apart from the courses included in my degree, I&apos;ve taken a number of online courses and workshops such as
+                Deep Javascript Foundations, Epic React, ES6: The Right Parts, Advanced Python, and I&apos;m currently taking CSS for JS.
               </p>
               <p>
-                <b>Co-authored</b> <a href="https://www.amazon.com/Go-Action-William-Kennedy/dp/1617291781">Go In Action</a> for Manning Publishing.
+                Throughout my career, I&apos;ve worked with a ton of developers in my role as a team member at companies I&apos;ve worked at, and
+                I&apos;ve found it to be invaluable to collaborate well with others. I value giving credit where it is due and celebrating the successes of others with them.
               </p>
               <p>
-                <b>Co-wrote</b> Skynet and SkyDNS with Erik St. Martin, which was eventually morphed into the DNS service discovery that powers Kubernetes.
-              </p>
-              <p>
-                <b>Contributed</b> to the largest projects that power the Internet. Go, Kubernetes, Etcd, and so many more.
-              </p>
-              <p>
-                I love Open Source, learning in public, and sharing what I learn with others.
+                One of the biggest things I&apos;ve realized is that you can be the smartest and most skilled software developer in the world,
+                but if you&apos;re not kind to those with whom you interact, you&apos;ll never reach your full potential and you&apos;ll always be
+                chasing the next thing to bring you happiness in life. Be kind.
               </p>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href={siteMeta.author.twitter} icon={TwitterIcon}>
-                Follow on Twitter
-              </SocialLink>
-              <SocialLink href={siteMeta.author.mastodon} icon={MastodonIcon} className="mt-4">
-                Follow on Mastodon
-              </SocialLink>
-              <SocialLink href={siteMeta.author.instagram} icon={InstagramIcon} className="mt-4">
-                Follow on Instagram
+              <SocialLink href={siteMeta.author.linkedin} icon={LinkedInIcon}>
+                Follow on LinkedIn
               </SocialLink>
               <SocialLink href={siteMeta.author.github} icon={GitHubIcon} className="mt-4">
                 Follow on GitHub
               </SocialLink>
-              <SocialLink href={siteMeta.author.linkedin} icon={LinkedInIcon} className="mt-4">
-                Follow on LinkedIn
+              <SocialLink href={siteMeta.author.twitter} icon={TwitterIcon} className="mt-4">
+                Follow on Twitter
+              </SocialLink>
+              <SocialLink href={siteMeta.author.instagram} icon={InstagramIcon} className="mt-4">
+                Follow on Instagram
               </SocialLink>
               <SocialLink
                 href={`mailto:${siteMeta.author.email}`}

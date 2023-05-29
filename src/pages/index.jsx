@@ -10,7 +10,6 @@ import {
   InstagramIcon,
   GitHubIcon,
   LinkedInIcon,
-  MastodonIcon
 } from '@/components/SocialIcons'
 
 

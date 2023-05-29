@@ -10,7 +10,7 @@ import logoGolang from '@/images/logos/icons8-golang.svg'
 import logoKubernetes from '@/images/logos/kubernetes.svg'
 import logoCaptainhook from '@/images/logos/captainhook.svg'  
 const siteMeta = {
-    title: "Brian Ketelsen",
+    title: "Inderdeep Singh",
     description: "Inderdeep Singh is a software engineer, avid programmer, chess fanatic and writer.",
     copyright: "Inderdeep Singh",
     author: {
