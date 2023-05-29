@@ -1,8 +1,9 @@
 
-import logoAmazon from '@/images/logos/aws.svg'
-import logoClarity from '@/images/logos/clarity.jpg'
-import logoMicrosoft from '@/images/logos/azure.svg'
-import logoXOR from '@/images/logos/xor.jpg'
+import logoBirla from '@/images/logos/birla.webp'
+import logoBirdeye from '@/images/logos/birdeye.webp'
+import logoShorthills from '@/images/logos/shorthills.png'
+import logoBishop from '@/images/logos/bishop.png'
+import logoBits from '@/images/logos/bits.png'
 import logoVanilla from '@/images/logos/vanilla.svg'
 import logoFleek from '@/images/logos/fleeksvg.svg'
 
@@ -26,39 +27,60 @@ const siteMeta = {
     },
     siteUrl: "https://brian.dev"
 }
- export const resume = [
+ export const work = [
     {
-      company: 'Amazon',
-      title: 'Principal Developer Advocate',
-      logo: logoAmazon,
-      start: '2022',
+      company: `Bishop's University`,
+      title: 'Research Assistant',
+      logo: logoBishop,
+      start: 'Oct 2022',
       end: {
-        label: 'Present',
+        label: 'Dec 2022',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Microsoft',
-      title: 'Principal Cloud Developer Advocate',
-      logo: logoMicrosoft,
-      start: '2017',
-      end: '2022',
+      company: 'Birdeye',
+      title: 'Software Developer',
+      logo: logoBirdeye,
+      start: 'Nov 2020',
+      end: 'July 2021',
     },
     {
-      company: 'XOR Data Exchange',
-      title: 'CIO',
-      logo: logoXOR,
-      start: '2014',
-      end: '2016',
+      company: 'Shorthills Tech.',
+      title: 'Software Engineer Intern',
+      logo: logoShorthills,
+      start: 'July 2019',
+      end: 'Dec 2019',
     },
-    {
-      company: 'Clarity Services, Inc.',
-      title: 'COO',
-      logo: logoClarity,
-      start: '2008',
-      end: '2014',
-    },
+     {
+         company: 'Grasim Industries Limited',
+         title: 'Software Engineer Intern',
+         logo: logoBirla,
+         start: 'May 2018',
+         end: 'July 2018',
+     },
   ]
+
+export const education = [
+    {
+        company: `Bishop's University`,
+        title: 'MSc. Comp. Science',
+        logo: logoBishop,
+        start: 'Sep 2021',
+        end: {
+            label: 'Dec 2022',
+            dateTime: new Date().getFullYear(),
+        },
+    },
+    {
+        company: 'BITS Pilani',
+        title: 'B.E. Comp. Science',
+        logo: logoBits,
+        start: 'Aug 2016',
+        end: 'July 2020',
+    },
+]
+
 export const projects = [
   {
     name: 'Fleek',

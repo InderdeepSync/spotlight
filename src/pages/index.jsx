@@ -23,7 +23,7 @@ import image4 from '@/images/photos/BW013.jpg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
-import  siteMeta, {resume} from '@/data/siteMeta'
+import  siteMeta, {work, education} from '@/data/siteMeta'
 import { NextSeo } from 'next-seo';
 
 
@@ -139,16 +139,15 @@ function Newsletter() {
   )
 }
 
-function Resume() {
-
+function Resume({title, data, showLinkedInButton}) {
   return (
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
+        <span className="ml-3">{title}</span>
       </h2>
       <ol className="mt-6 space-y-4">
-        {resume.map((role, roleIndex) => (
+        {data.map((role, roleIndex) => (
           <li key={roleIndex} className="flex gap-4">
             <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
               <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
@@ -181,10 +180,12 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="https://linkedin.com/in/brianketelsen" variant="secondary" className="group mt-6 w-full">
-               More on LinkedIn 
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button>
+      {showLinkedInButton ? (
+          <Button href="https://linkedin.com/in/brianketelsen" variant="secondary" className="group mt-6 w-full">
+            More on LinkedIn
+            <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+          </Button>
+      ) : null}
     </div>
   )
 }
@@ -263,15 +264,13 @@ export default function Home({ articles }) {
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
             />
-
-
             <SocialLink
               href={siteMeta.author.instagram}
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com"
+              href="https://github.com/InderdeepSync"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
@@ -293,7 +292,8 @@ export default function Home({ articles }) {
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Newsletter />
-            <Resume />
+            <Resume title="Education" data={education} showLinkedInButton={false}/>
+            <Resume title="Work" data={work} showLinkedInButton={true}/>
           </div>
         </div>
       </Container>
