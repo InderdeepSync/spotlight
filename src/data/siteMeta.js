@@ -5,7 +5,6 @@ import logoShorthills from '@/images/logos/shorthills.png'
 import logoBishop from '@/images/logos/bishop.png'
 import logoBits from '@/images/logos/bits.png'
 import logoVanilla from '@/images/logos/vanilla.svg'
-import logoFleek from '@/images/logos/fleeksvg.svg'
 
 import mlIcon from '@/images/logos/ml.png'
 import logoKubernetes from '@/images/logos/kubernetes.svg'
@@ -25,7 +24,7 @@ const siteMeta = {
         twitch: "https://twitch.tv/bketelsen",
         youtube: "https://youtube.com/@bketelsen",
     },
-    siteUrl: "https://brian.dev"
+    siteUrl: "https://inderdeepsync.netlify.app"
 }
  export const work = [
     {

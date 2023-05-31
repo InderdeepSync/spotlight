@@ -9,7 +9,6 @@ import {
   GitHubIcon,
   LinkedInIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/brian-head.jpg'
 import siteMeta from '@/data/siteMeta'
 import { NextSeo } from 'next-seo';
 
@@ -45,9 +44,9 @@ export default function About() {
       <NextSeo
         title="About - Inderdeep Singh"
         description={siteMeta.description}
-        canonical="https://brian.dev/about"
+        canonical="https://inderdeepsync.netlify.app/about"
         openGraph={{
-          url: 'https://brian.dev/about',
+          url: 'https://inderdeepsync.netlify.app/about',
           images: [
             {
               url: `https://og.brian.dev/api/og?title=About&desc=${siteMeta.description}`,
@@ -57,7 +56,7 @@ export default function About() {
               type: 'image/jpeg',
             }
           ],
-          siteName: 'brian.dev',
+          siteName: 'inderdeepsync.netlify.app',
         }}
       />
       <Container className="mt-16 sm:mt-32">

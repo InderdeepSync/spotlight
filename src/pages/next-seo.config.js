@@ -3,7 +3,7 @@ export default {
     openGraph: {
       type: 'website',
       locale: 'en_IE',
-      url: 'https://www.brian.dev/',
+      url: 'https://inderdeepsync.netlify.app/',
       siteName: 'Inderdeep Singh',
     },
     twitter: {

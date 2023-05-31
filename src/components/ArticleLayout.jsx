@@ -34,9 +34,9 @@ export function ArticleLayout({
     <NextSeo
       title={meta.title}
       description={meta.description}
-      canonical={`https://brian.dev${router.pathname}`}
+      canonical={`https://inderdeepsync.netlify.app${router.pathname}`}
       openGraph={{
-        url: `https://brian.dev${router.pathname}`,
+        url: `https://inderdeepsync.netlify.app${router.pathname}`,
         images: [
           {
             url: `https://og.brian.dev/api/og?title=${meta.title}&desc=${meta.description}`,
@@ -46,7 +46,7 @@ export function ArticleLayout({
             type: 'image/jpeg',
           }
         ],
-        siteName: 'brian.dev',
+        siteName: 'inderdeepsync.netlify.app',
       }}
     />
       <Container className="mt-16 lg:mt-32">

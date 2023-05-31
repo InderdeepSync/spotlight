@@ -41,11 +41,11 @@ export default function ArticlesIndex({ articles }) {
   return (
     <>
     <NextSeo
-      title="Articles - Brian Ketelsen"
+      title="Articles - Inderdeep Singh"
       description={siteMeta.description}
-      canonical="https://brian.dev/articles"
+      canonical="https://inderdeepsync.netlify.app/articles"
       openGraph={{
-        url: 'https://brian.dev/articles',
+        url: 'https://inderdeepsync.netlify.app/articles',
         images: [
           {
             url: `https://og.brian.dev/api/og?title=Articles&desc=${headline}`,
@@ -55,7 +55,7 @@ export default function ArticlesIndex({ articles }) {
             type: 'image/jpeg',
           }
         ],
-        siteName: 'brian.dev',
+        siteName: 'inderdeepsync.netlify.app',
       }}
     />
       <SimpleLayout

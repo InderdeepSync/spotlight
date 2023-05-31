@@ -25,9 +25,9 @@ export default function Projects() {
     <NextSeo
       title="Projects - Inderdeep Singh"
       description={siteMeta.description}
-      canonical="https://brian.dev/projects"
+      canonical="https://inderdeepsync.netlify.app/projects"
       openGraph={{
-        url: 'https://brian.dev/projects',
+        url: 'https://inderdeepsync.netlify.app/projects',
         images: [
           {
             url: `https://og.brian.dev/api/og?title=Projects&desc=${headline}`,
@@ -37,7 +37,7 @@ export default function Projects() {
             type: 'image/jpeg',
           }
         ],
-        siteName: 'brian.dev',
+        siteName: 'inderdeepsync.netlify.app',
       }}
     />
       <SimpleLayout
