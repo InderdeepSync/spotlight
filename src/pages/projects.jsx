@@ -23,7 +23,7 @@ export default function Projects() {
   return (
     <>
     <NextSeo
-      title="Projects - Brian Ketelsen"
+      title="Projects - Inderdeep Singh"
       description={siteMeta.description}
       canonical="https://brian.dev/projects"
       openGraph={{

@@ -1,13 +1,13 @@
 
-import logoBirla from '@/images/logos/birla.webp'
-import logoBirdeye from '@/images/logos/birdeye.webp'
+import logoBirla from '@/images/logos/birla.png'
+import logoBirdeye from '@/images/logos/birdeye.png'
 import logoShorthills from '@/images/logos/shorthills.png'
 import logoBishop from '@/images/logos/bishop.png'
 import logoBits from '@/images/logos/bits.png'
 import logoVanilla from '@/images/logos/vanilla.svg'
 import logoFleek from '@/images/logos/fleeksvg.svg'
 
-import logoGolang from '@/images/logos/icons8-golang.svg'
+import mlIcon from '@/images/logos/ml.png'
 import logoKubernetes from '@/images/logos/kubernetes.svg'
 import logoCaptainhook from '@/images/logos/captainhook.svg'  
 const siteMeta = {
@@ -83,11 +83,11 @@ export const education = [
 
 export const projects = [
   {
-    name: 'Fleek',
+    name: 'Genetic MicroArray Data Analysis',
     description:
-      'Install and manage all the tools you need to be productive.',
+      'This comprehensive report',
     link: { href: 'https://getfleek.dev', label: 'getfleek.dev' },
-    logo: logoFleek,
+    logo: mlIcon,
   },
   {
     name: 'Vanilla OS',
@@ -109,13 +109,6 @@ export const projects = [
       'Production-Grade Container Scheduling and Management',
     link: { href: 'https://github.com/kubernetes/kubernetes', label: 'github.com' },
     logo: logoKubernetes,
-  },
-  {
-    name: 'Go',
-    description:
-      'Build fast, reliable, and efficient software at scale',
-    link: { href: 'https://go.dev', label: 'go.dev' },
-    logo: logoGolang,
   },
 
 
