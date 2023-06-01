@@ -70,10 +70,10 @@ function MoonIcon(props) {
   )
 }
 
-function MobileNavItem({ href, children }) {
+function MobileNavItem({ href, children, ...props }) {
   return (
     <li>
-      <Popover.Button as={Link} href={href} className="block py-2">
+      <Popover.Button as={Link} href={href} className="block py-2" {...props}>
         {children}
       </Popover.Button>
     </li>
@@ -125,6 +125,7 @@ function MobileNavigation(props) {
                 <MobileNavItem href="/about">About</MobileNavItem>
                 <MobileNavItem href="/articles">Articles</MobileNavItem>
                 <MobileNavItem href="/projects">Projects</MobileNavItem>
+                <MobileNavItem href="/resume.pdf" target='_blank' rel="noopener noreferrer">Resume</MobileNavItem>
               </ul>
             </nav>
           </Popover.Panel>
@@ -134,7 +135,7 @@ function MobileNavigation(props) {
   )
 }
 
-function NavItem({ href, children }) {
+function NavItem({ href, children, ...props }) {
   let isActive = useRouter().pathname === href
 
   return (
@@ -147,6 +148,7 @@ function NavItem({ href, children }) {
             ? 'text-teal-700 dark:text-teal-400'
             : 'hover:text-teal-700 dark:hover:text-teal-400'
         )}
+        {...props}
       >
         {children}
         {isActive && (
@@ -164,6 +166,7 @@ function DesktopNavigation(props) {
         <NavItem href="/about">About</NavItem>
         <NavItem href="/articles">Articles</NavItem>
         <NavItem href="/projects">Projects</NavItem>
+        <NavItem href="/resume.pdf" target='_blank' rel="noopener noreferrer">Resume</NavItem>
       </ul>
     </nav>
   )
