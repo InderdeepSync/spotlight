@@ -13,11 +13,11 @@ import {
 } from '@/components/SocialIcons'
 
 
-import image3 from '@/images/photos/1102.jpg'
-import image2 from '@/images/photos/20150716-070618871-3.jpg'
-import image1 from '@/images/photos/bike.jpg'
-import image5 from '@/images/photos/band.jpg'
-import image4 from '@/images/photos/BW013.jpg'
+import image1 from '@/images/photos/night.jpeg'
+import image2 from '@/images/photos/cycle.jpeg'
+import image3 from '@/images/me.jpeg'
+import image4 from '@/images/photos/me-three.jpeg'
+import image5 from '@/images/photos/ambience.jpeg'
 
 
 import { generateRssFeed } from '@/lib/generateRssFeed'
