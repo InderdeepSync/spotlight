@@ -40,6 +40,8 @@ export function ArticleLayout({
         images: [
           {
             url: `https://raw.githubusercontent.com/InderdeepSync/spotlight/main/public/opengraph-image.png`,
+            width: 1200,
+            height: 600,
             alt: 'Og Image Alt',
             type: 'image/png',
           }
