@@ -4,14 +4,15 @@ import {NextSeo} from "next-seo";
 
 export default function Custom404() {
     const {asPath} = useRouter();
-    console.log(asPath)
+    const obj = useRouter()
+    console.log(obj)
     return (
         <>
             <NextSeo
                 title="Not Found"/>
             <SimpleLayout
                 title={"404 - Oh no, you found a page that's missing stuff."}
-                intro={`"${asPath}" is not a valid page on inderdeepsync.netlify.app. So sorry.`}
+                intro={`This page could not be found. So sorry.`}
             >
             </SimpleLayout>
         </>)
