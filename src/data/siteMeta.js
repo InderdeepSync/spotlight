@@ -7,8 +7,7 @@ import logoBits from '@/images/logos/bits.png'
 import logoVanilla from '@/images/logos/vanilla.svg'
 
 import mlIcon from '@/images/logos/ml.png'
-import logoKubernetes from '@/images/logos/kubernetes.svg'
-import logoCaptainhook from '@/images/logos/captainhook.svg'  
+import logoBulletin from '@/images/logos/bulletin.png'
 const siteMeta = {
     title: "Inderdeep Singh",
     description: "Inderdeep Singh is a software engineer, avid programmer, chess fanatic and writer.",
@@ -82,35 +81,21 @@ export const education = [
 
 export const projects = [
   {
-    name: 'Genetic MicroArray Data Analysis',
+    name: 'Disease classification using genetic microarray data',
     description:
-      'This comprehensive report',
-    link: { href: 'https://getfleek.dev', label: 'getfleek.dev' },
+      `My humble attempt at unraveling the mysteries behind several popular ML classifiers. I discuss the strengths and 
+      limitations of each algorithm, and present a methodical, step-by-step approach to tackle similar real-world problems.`,
+    link: { href: 'https://gist.github.com/InderdeepSync/1755d76edab4ef848f52e113f6619df9', label: 'gist.github.com' },
     logo: mlIcon,
   },
   {
-    name: 'Vanilla OS',
+    name: 'Bulletin Board',
     description:
-      'Vanilla OS is an immutable and atomic Ubuntu Linux-based Point Release distribution, that receives updates at the right time, neither before nor after, without sacrificing security and functionality.',
-    link: { href: 'https://vanillaos.org', label: 'vanillaos.org' },
-    logo: logoVanilla,
+      `A multi-threaded, distributed TCP network server written in C++ to allow users to reliably store and retrieve messages. Includes a production-grade 
+      implementation of synchronization accomplished using the two-phase commit protocol.`,
+    link: { href: 'https://github.com/InderdeepSync/bulletin-board', label: 'github.com' },
+    logo: logoBulletin,
   },
-  {
-    name: 'Captain Hook',
-    description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'https://github.com/bketelsen/captainhook', label: 'github.com' },
-    logo: logoCaptainhook,
-  },
-  {
-    name: 'Kubernetes',
-    description:
-      'Production-Grade Container Scheduling and Management',
-    link: { href: 'https://github.com/kubernetes/kubernetes', label: 'github.com' },
-    logo: logoKubernetes,
-  },
-
-
 ]
 
 
