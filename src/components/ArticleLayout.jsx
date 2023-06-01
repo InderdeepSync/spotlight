@@ -39,11 +39,9 @@ export function ArticleLayout({
         url: `https://inderdeepsync.netlify.app${router.pathname}`,
         images: [
           {
-            url: `https://og.brian.dev/api/og?title=${meta.title}&desc=${meta.description}`,
-            width: 1200,
-            height: 600,
+            url: `https://raw.githubusercontent.com/InderdeepSync/spotlight/main/public/opengraph-image.png`,
             alt: 'Og Image Alt',
-            type: 'image/jpeg',
+            type: 'image/png',
           }
         ],
         siteName: 'inderdeepsync.netlify.app',

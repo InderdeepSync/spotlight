@@ -3,7 +3,7 @@ import Link from 'next/link'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import portraitImage from '@/images/brian-head.jpg'
+import portraitImage from '@/images/me.jpeg'
 import {
   TwitterIcon,
   InstagramIcon,
@@ -50,11 +50,9 @@ export default function About() {
           url: 'https://inderdeepsync.netlify.app/about',
           images: [
             {
-              url: `https://og.brian.dev/api/og?title=About&desc=${siteMeta.description}`,
-              width: 1200,
-              height: 600,
+              url: `https://raw.githubusercontent.com/InderdeepSync/spotlight/main/public/opengraph-image.png`,
               alt: 'Og Image Alt',
-              type: 'image/jpeg',
+              type: 'image/png',
             }
           ],
           siteName: 'inderdeepsync.netlify.app',

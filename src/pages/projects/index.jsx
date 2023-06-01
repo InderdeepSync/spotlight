@@ -30,11 +30,9 @@ export default function Projects() {
         url: 'https://inderdeepsync.netlify.app/projects',
         images: [
           {
-            url: `https://og.brian.dev/api/og?title=Projects&desc=${headline}`,
-            width: 1200,
-            height: 600,
+            url: `https://raw.githubusercontent.com/InderdeepSync/spotlight/main/public/opengraph-image.png`,
             alt: 'Og Image Alt',
-            type: 'image/jpeg',
+            type: 'image/png',
           }
         ],
         siteName: 'inderdeepsync.netlify.app',
