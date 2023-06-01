@@ -84,7 +84,7 @@ export const projects = [
     name: 'Disease classification using genetic microarray data',
     description:
       `My humble attempt at unraveling the mysteries behind several popular ML classifiers. I discuss the strengths and 
-      limitations of each algorithm, and present a methodical, step-by-step approach to tackle similar real-world problems.`,
+      limitations of each algorithm, and present a methodical, step-by-step approach to tackle similar real-world ML problems.`,
     link: { href: 'https://gist.github.com/InderdeepSync/1755d76edab4ef848f52e113f6619df9', label: 'gist.github.com' },
     logo: mlIcon,
   },
