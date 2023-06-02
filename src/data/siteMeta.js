@@ -4,7 +4,6 @@ import logoBirdeye from '@/images/logos/birdeye.png'
 import logoShorthills from '@/images/logos/shorthills.png'
 import logoBishop from '@/images/logos/bishop.png'
 import logoBits from '@/images/logos/bits.png'
-import logoVanilla from '@/images/logos/vanilla.svg'
 
 import mlIcon from '@/images/logos/ml.png'
 import logoBulletin from '@/images/logos/bulletin.png'
@@ -16,12 +15,9 @@ const siteMeta = {
         name: "Inderdeep Singh",
         email: "inderdeepsync@gmail.com",
         twitter: "https://twitter.com/InderdeepSync",
-        mastodon: "https://tty0.social/@bketelsen",
         instagram: "https://www.instagram.com/inderdeepsync/",
         github: "https://github.com/InderdeepSync",
         linkedin: "https://www.linkedin.com/in/inderdeep-sync",
-        twitch: "https://twitch.tv/bketelsen",
-        youtube: "https://youtube.com/@bketelsen",
     },
     siteUrl: "https://inderdeepsync.netlify.app"
 }

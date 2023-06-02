@@ -13,10 +13,10 @@ import {
 } from '@/components/SocialIcons'
 
 
-import image1 from '@/images/photos/night.jpeg'
+import image1 from '@/images/photos/me-three.jpeg'
 import image2 from '@/images/photos/cycle.jpeg'
-import image3 from '@/images/me.jpeg'
-import image4 from '@/images/photos/me-three.jpeg'
+import image3 from '@/images/photos/night.jpeg'
+import image4 from '@/images/me.jpeg'
 import image5 from '@/images/photos/ambience.jpeg'
 
 
