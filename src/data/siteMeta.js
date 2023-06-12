@@ -4,6 +4,7 @@ import logoBirdeye from '@/images/logos/birdeye.png'
 import logoShorthills from '@/images/logos/shorthills.png'
 import logoBishop from '@/images/logos/bishop.png'
 import logoBits from '@/images/logos/bits.png'
+import logoReact from "@/images/logos/react.png"
 
 import mlIcon from '@/images/logos/ml.png'
 import logoBulletin from '@/images/logos/bulletin.png'
@@ -92,6 +93,12 @@ export const projects = [
     link: { href: 'https://github.com/InderdeepSync/bulletin-board', label: 'github.com' },
     logo: logoBulletin,
   },
+    {
+        name: 'React Mini Games',
+        description: `A curated collection of four fun & engaging browser games built using React, React Router, CSS Modules and Vite.`,
+        link: {href: "https://github.com/InderdeepSync/mini-games", label: 'github.com'},
+        logo: logoReact
+    }
 ]
 
 
