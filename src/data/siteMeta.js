@@ -5,6 +5,8 @@ import logoShorthills from '@/images/logos/shorthills.png'
 import logoBishop from '@/images/logos/bishop.png'
 import logoBits from '@/images/logos/bits.png'
 import logoReact from "@/images/logos/react.png"
+import logoDjango from "@/images/logos/cart.png"
+import logoPython from "@/images/logos/python.png"
 
 import mlIcon from '@/images/logos/ml.png'
 import logoBulletin from '@/images/logos/bulletin.png'
@@ -77,28 +79,41 @@ export const education = [
 ]
 
 export const projects = [
-  {
-    name: 'Disease classification using genetic microarray data',
-    description:
-      `My humble attempt at unraveling the mysteries behind several popular ML classifiers. I discuss the strengths and 
-      limitations of each algorithm, and present a methodical, step-by-step approach to tackle similar real-world ML problems.`,
-    link: { href: 'https://gist.github.com/InderdeepSync/1755d76edab4ef848f52e113f6619df9', label: 'gist.github.com' },
-    logo: mlIcon,
-  },
-  {
-    name: 'Bulletin Board',
-    description:
-      `A multi-threaded, distributed TCP network server written in C++ to allow users to reliably store and retrieve messages. Includes a production-grade 
-      implementation of synchronization accomplished using the two-phase commit protocol.`,
-    link: { href: 'https://github.com/InderdeepSync/bulletin-board', label: 'github.com' },
-    logo: logoBulletin,
-  },
     {
         name: 'React Mini Games',
         description: `A curated collection of four fun & engaging browser games built using React, React Router, CSS Modules and Vite.`,
         link: {href: "https://github.com/InderdeepSync/mini-games", label: 'github.com'},
         logo: logoReact
-    }
+    },
+    {
+        name: 'django E-commerce',
+        description: `An ecommerce web application prototype built with python and django. Includes customer registration, authentication, user carts, checkout,
+        order management as well as an admin dashboard for inventory and stock management.`,
+        link: {href: "https://github.com/InderdeepSync/djangoProject", label: 'github.com'},
+        logo: logoDjango
+    },
+    {
+        name: 'Bulletin Board',
+        description:
+            `A multi-threaded, distributed TCP network server written in C++ to allow users to reliably store and retrieve messages. Includes a production-grade 
+      implementation of synchronization accomplished using the two-phase commit protocol.`,
+        link: { href: 'https://github.com/InderdeepSync/bulletin-board', label: 'github.com' },
+        logo: logoBulletin,
+    },
+    {
+        name: "AlgoExpert Solutions",
+        description: "My custom solutions to 70+ tough programming challenges in python.",
+        link: {href: 'https://github.com/InderdeepSync/algoexpert_problems', label: "github.com"},
+        logo: logoPython
+    },
+  {
+    name: 'Disease classification using genetic microarray data',
+    description:
+      `My humble attempt at unraveling the mysteries behind several popular ML classifiers. I discuss the strengths and 
+      limitations of each algorithm, and present a methodical, step-by-step approach to tackle similar real-world ML problems using numPy, scikit-learn, matplotlib, etc.`,
+    link: { href: 'https://gist.github.com/InderdeepSync/1755d76edab4ef848f52e113f6619df9', label: 'gist.github.com' },
+    logo: mlIcon,
+  },
 ]
 
 
