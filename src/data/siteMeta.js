@@ -1,4 +1,3 @@
-
 import logoBirla from '@/images/logos/birla.png'
 import logoBirdeye from '@/images/logos/birdeye.png'
 import logoShorthills from '@/images/logos/shorthills.png'
@@ -10,6 +9,7 @@ import logoPython from "@/images/logos/python.png"
 
 import mlIcon from '@/images/logos/ml.png'
 import logoBulletin from '@/images/logos/bulletin.png'
+
 const siteMeta = {
     title: "Inderdeep Singh",
     description: "Inderdeep Singh is a software engineer, avid programmer, chess fanatic and writer.",
@@ -24,39 +24,39 @@ const siteMeta = {
     },
     siteUrl: "https://inderdeepsync.netlify.app"
 }
- export const work = [
+export const work = [
     {
-      company: `Bishop's University`,
-      title: 'Research Assistant',
-      logo: logoBishop,
-      start: 'Oct 2022',
-      end: {
-        label: 'Dec 2022',
-        dateTime: new Date().getFullYear(),
-      },
+        company: `Bishop's University`,
+        title: 'Research Assistant',
+        logo: logoBishop,
+        start: 'Oct 2022',
+        end: {
+            label: 'Dec 2022',
+            dateTime: new Date().getFullYear(),
+        },
     },
     {
-      company: 'Birdeye',
-      title: 'Software Developer',
-      logo: logoBirdeye,
-      start: 'Nov 2020',
-      end: 'July 2021',
+        company: 'Birdeye',
+        title: 'Software Developer',
+        logo: logoBirdeye,
+        start: 'Nov 2020',
+        end: 'July 2021',
     },
     {
-      company: 'Shorthills Tech.',
-      title: 'Software Engineer Intern',
-      logo: logoShorthills,
-      start: 'July 2019',
-      end: 'Dec 2019',
+        company: 'Shorthills Tech.',
+        title: 'Software Engineer Intern',
+        logo: logoShorthills,
+        start: 'July 2019',
+        end: 'Dec 2019',
     },
-     {
-         company: 'Grasim Industries Limited',
-         title: 'Software Engineer Intern',
-         logo: logoBirla,
-         start: 'May 2018',
-         end: 'July 2018',
-     },
-  ]
+    {
+        company: 'Grasim Industries Limited',
+        title: 'Software Engineer Intern',
+        logo: logoBirla,
+        start: 'May 2018',
+        end: 'July 2018',
+    },
+]
 
 export const education = [
     {
@@ -65,7 +65,7 @@ export const education = [
         logo: logoBishop,
         start: 'Sep 2021',
         end: {
-            label: 'Dec 2022',
+            label: 'June 2023',
             dateTime: new Date().getFullYear(),
         },
     },
@@ -81,23 +81,16 @@ export const education = [
 export const projects = [
     {
         name: 'React Mini Games',
-        description: `A curated collection of four fun & engaging browser games built using React, React Router, CSS Modules and Vite.`,
+        description: `A curated collection of 7 fun & engaging browser games and demos built using React, React Router, CSS Modules and Vite. Includes a classic Todos App, a beautiful Kanban Board and several games such as Tic-Tac-Toe, Memory challenge and more!`,
         link: {href: "https://github.com/InderdeepSync/mini-games", label: 'github.com'},
         logo: logoReact
-    },
-    {
-        name: 'django E-commerce',
-        description: `An ecommerce web application prototype built with python and django. Includes customer registration, authentication, user carts, checkout,
-        order management as well as an admin dashboard for inventory and stock management.`,
-        link: {href: "https://github.com/InderdeepSync/djangoProject", label: 'github.com'},
-        logo: logoDjango
     },
     {
         name: 'Bulletin Board',
         description:
             `A multi-threaded, distributed TCP network server written in C++ to allow users to reliably store and retrieve messages. Includes a production-grade 
       implementation of synchronization accomplished using the two-phase commit protocol.`,
-        link: { href: 'https://github.com/InderdeepSync/bulletin-board', label: 'github.com' },
+        link: {href: 'https://github.com/InderdeepSync/bulletin-board', label: 'github.com'},
         logo: logoBulletin,
     },
     {
@@ -106,14 +99,24 @@ export const projects = [
         link: {href: 'https://github.com/InderdeepSync/algoexpert_problems', label: "github.com"},
         logo: logoPython
     },
-  {
-    name: 'Disease classification using genetic microarray data',
-    description:
-      `My humble attempt at unraveling the mysteries behind several popular ML classifiers. I discuss the strengths and 
+    {
+        name: 'Disease classification using genetic microarray data',
+        description:
+            `My humble attempt at unraveling the mysteries behind several popular ML classifiers. I discuss the strengths and 
       limitations of each algorithm, and present a methodical, step-by-step approach to tackle similar real-world ML problems using numPy, scikit-learn, matplotlib, etc.`,
-    link: { href: 'https://gist.github.com/InderdeepSync/1755d76edab4ef848f52e113f6619df9', label: 'gist.github.com' },
-    logo: mlIcon,
-  },
+        link: {
+            href: 'https://gist.github.com/InderdeepSync/1755d76edab4ef848f52e113f6619df9',
+            label: 'gist.github.com'
+        },
+        logo: mlIcon,
+    },
+    {
+        name: 'django E-commerce',
+        description: `An ecommerce web application prototype built with python and django. Includes customer registration, authentication, user carts, checkout,
+        order management as well as an admin dashboard for inventory and stock management.`,
+        link: {href: "https://github.com/InderdeepSync/djangoProject", label: 'github.com'},
+        logo: logoDjango
+    },
 ]
 
 
