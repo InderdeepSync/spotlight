@@ -1,5 +1,6 @@
 import logoBirla from '@/images/logos/birla.png'
 import logoBirdeye from '@/images/logos/birdeye.png'
+import logoUnscript from '@/images/logos/unscript.png'
 import logoShorthills from '@/images/logos/shorthills.png'
 import logoBishop from '@/images/logos/bishop.png'
 import logoBits from '@/images/logos/bits.png'
@@ -25,6 +26,13 @@ const siteMeta = {
     siteUrl: "https://inderdeepsync.netlify.app"
 }
 export const work = [
+    {
+        company: 'Unscript.ai',
+        title: 'Software Engineer',
+        logo: logoUnscript,
+        start: 'Oct 2023',
+        end: 'Present',
+    },
     {
         company: `Bishop's University`,
         title: 'Research Assistant',
