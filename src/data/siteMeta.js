@@ -37,7 +37,7 @@ export const work = [
         company: `Bishop's University`,
         title: 'Research Assistant',
         logo: logoBishop,
-        start: 'Oct 2022',
+        start: 'Nov 2022',
         end: {
             label: 'Dec 2022',
             dateTime: new Date().getFullYear(),
@@ -47,8 +47,8 @@ export const work = [
         company: 'Birdeye',
         title: 'Software Developer',
         logo: logoBirdeye,
-        start: 'Nov 2020',
-        end: 'July 2021',
+        start: 'June 2020',
+        end: 'Dec 2022',
     },
     {
         company: 'Shorthills Tech.',
